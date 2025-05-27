@@ -869,6 +869,10 @@ nav button:nth-child(3):hover:before {
     width: 360px;
   }
 
+  .swiper-slide-active .menuInfo hr {
+    animation: fixWidthMenuHr700 1s linear;
+  }
+
   .menuDesc {
     width: 50ch;
     font-size: 0.8rem;
@@ -1061,7 +1065,7 @@ nav button:nth-child(3):hover:before {
     width: 0;
   } to {
     width: 360px;
-  } 
+  }   
 }
 
 @keyframes fixWidthHr600 {
