@@ -1056,6 +1056,14 @@ nav button:nth-child(3):hover:before {
   }
 }
 
+@keyframes fixWidthMenuHr700 {
+  from {
+    width: 0;
+  } to {
+    width: 360px;
+  } 
+}
+
 @keyframes fixWidthHr600 {
   from {
     width: 0;
